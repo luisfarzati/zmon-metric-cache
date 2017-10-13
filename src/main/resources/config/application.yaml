@@ -11,3 +11,9 @@ endpoints:
 
 metriccache:
   rest_metric_hosts: ["localhost"]
+
+opentracing:
+  spring:
+    cloud:
+      websocket:
+        enabled: false
